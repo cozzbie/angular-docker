@@ -2,7 +2,6 @@ version: '3'
 services:
   angular-docker:
     image: cozzbie/angular-docker:1.0
-    build: '.'
     volumes:
       - ./src:/app/src
       - ./e2e:/app/e2e
