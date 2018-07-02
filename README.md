@@ -1,6 +1,6 @@
 # Angular Docker
 
-Small project demonstrates working with [Angular](https://github.com/angular/angular-cli) and [Docker](https://www.docker.com/) 
+Small project demonstrates that working with [Angular](https://github.com/angular/angular-cli) and [Docker](https://www.docker.com/) 
 
 ## Development server
 
