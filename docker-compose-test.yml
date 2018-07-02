@@ -1,0 +1,5 @@
+# execute with docker-compose -f docker-compose.yml -f docker-compose-test.yml run angular-docker
+version: '3'
+services:
+  angular-docker:
+    command: ng test

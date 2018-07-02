@@ -1,0 +1,16 @@
+version: '3'
+services:
+  angular-docker:
+    image: cozzbie/angular-docker:1.0
+    build: '.'
+    volumes:
+      - ./src:/app/src
+      - ./e2e:/app/e2e
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+      - ./karma.conf.js:/app/karma.conf.js
+      - ./protractor.conf.js:/app/protractor.conf.js
+      - ./.angular-cli.json:/app/.angular-cli.json
+      - ./tsconfig.json:/app/tsconfig.json
+    ports:
+      - 4200:4200
